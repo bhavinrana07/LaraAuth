@@ -1,9 +1,9 @@
 # LaraAuth
 
-A Laravel app with Login, Registration and simple CRUD operations. 
+A Laravel app with Login, Registration and demostrating CRUD operations. 
 ## About
 
-LaraAuth is built with [Laravel 7](https://laravel.com/docs/7.x/authentication) with user authentication, registration with email confirmation, password recovery, Remember me. Uses official Bootstrap 4.
+LaraAuth is built with [Laravel 7](https://laravel.com/docs/7.x/authentication) with user authentication, registration with email confirmation, password recovery, Remember me. Uses official [Bootstrap 4](https://getbootstrap.com/docs/4.5/). Application will demostate relationship between models. Student > Degree > Semester > Subject > Mark.
 
 ## Laravel Specific key Spotlights
 - [Authentication](https://laravel.com/docs/7.x/authentication#introduction)
