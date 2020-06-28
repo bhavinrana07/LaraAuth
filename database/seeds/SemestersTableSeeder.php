@@ -15,8 +15,9 @@ class SemestersTableSeeder extends Seeder
     public function run()
     {
         Semester::truncate();
+        DB::table('degree_semester')->truncate();
        
-        //MBA
+        //MBA DEGREE SEMESTERS
         $MBADegree = Degree::where('name', 'MBA')->first();
 
         $MBASemI = Semester::create(['name' => 'MBA SEM I']);
@@ -27,7 +28,7 @@ class SemestersTableSeeder extends Seeder
         $MBADegree->semesters()->attach($MBASemII);
         $MBADegree->semesters()->attach($MBASemIII);
 
-        //MCA
+        //MCA DEGREE SEMESTERS
         $MCADegree = Degree::where('name', 'MCA')->first();
 
         $MCASemI = Semester::create(['name' => 'MCA SEM I']);
