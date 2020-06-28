@@ -3,7 +3,15 @@
 A Laravel app with Login, Registration and simple CRUD operations. 
 ## About
 
-LaraAuth is built with [Laravel 7](https://laravel.com/docs/7.x/authentication) with user authentication, registration with email confirmation, password recovery, Remember me. Uses official Bootstrap 4. I've used Gate for the permissions.
+LaraAuth is built with [Laravel 7](https://laravel.com/docs/7.x/authentication) with user authentication, registration with email confirmation, password recovery, Remember me. Uses official Bootstrap 4.
+
+##Laravel Specific key Spotlights
+- [Authentication](https://laravel.com/docs/7.x/authentication#introduction)
+- [Migration](https://laravel.com/docs/7.x/migrations)
+- [Seeding](https://laravel.com/docs/7.x/seeding)
+- Eloquent: [Model Relationships](https://laravel.com/docs/7.x/eloquent-relationships) (e.g. One to Many)
+- [Gates](https://laravel.com/docs/7.x/authorization#gates)
+- [Validation](https://laravel.com/docs/7.x/validation)
 
 ### Installation Instructions
 1. Run `git clone https://github.com/bhavinrana07/LaraAuth.git laraAuth`
