@@ -41,8 +41,8 @@ LaraAuth is built with [Laravel 7](https://laravel.com/docs/7.x/authentication) 
 - Users and Roles Management 
 
 ## Example Screenshots
-![listing screen](listing_screen.png)
-![edit screen](edit_screen.png)
+![listing screen](listing-screen.png)
+![edit screen](edit-screen.png)
 
 
 
